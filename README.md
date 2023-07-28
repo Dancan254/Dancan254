@@ -1,4 +1,4 @@
-Hi there👋 I'm ian
+Hi there👋 I'm ian.
 I'm a mechanical engineering student with a passion for exploring the exciting intersection of technology and engineering. Currently, I'm diving deep into the world of Java programming and its applications. 🚀
 
 🛠️ Tech & Tools
