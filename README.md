@@ -8,11 +8,11 @@
 
 - I’m currently learning **Java and spring boot, DevOps, Frontend Development**
 
-- I’m looking to collaborate on **Java related projects**
+- I’m looking to collaborate on **Java projects**
 
 - I regularly write articles on [https://hashnode.com/@Champez](https://hashnode.com/@Champez)
 
-- Ask me about **coreJava, OOP**
+- Ask me about **coreJava, OOP, SpringBoot**
 
 - How to reach me **dancanian25@gmail.com**
 
