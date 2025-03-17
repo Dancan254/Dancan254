@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm Ian</h1>
-<h3 align="center">Java Developer | Community Learning Advocate | Blockchain dev</h3>
+<h3 align="center">Java Developer | Community Learning Advocate</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dancan254&label=Profile%20views&color=0e75b6&style=flat" alt="dancan254" /> </p>
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
 
-<p align="left"> <a href="https://twitter.com/dancanian25" target="blank"><img src="https://img.shields.io/twitter/follow/dancanian25?logo=twitter&style=for-the-badge" alt="dancanian25" /></a> </p>
+<p align="left"> <a href="https://twitter.com/your_javaguy" target="blank"><img src="https://img.shields.io/twitter/follow/your_javaguy?logo=twitter&style=for-the-badge" alt="your_javaguy" /></a> </p>
 
 - I’m currently learning **Java and spring boot, DevOps, Blockchain**
 
