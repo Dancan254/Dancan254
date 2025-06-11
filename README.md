@@ -10,7 +10,7 @@
 
 - I’m looking to collaborate on **Java projects**
 
-- I regularly write articles on [https://hashnode.com/@Champez](https://hashnode.com/@Champez)
+- I regularly write articles on [https://medium.com/@dancanian25](https://medium.com/@dancanian25)
 
 - Ask me about **coreJava, OOP, SpringBoot**
 
