@@ -20,7 +20,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/dancanian25" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dancanian25" height="30" width="40" /></a>
+<a href="https://twitter.com/your_javaguy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dancanian25" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/ian-dancan-8a3721251/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ian-dancan-8a3721251/" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/ian-dancan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="ian-dancan" height="30" width="40" /></a>
 <a href="https://hashnode.com/@champez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="@champez" height="30" width="40" /></a>
