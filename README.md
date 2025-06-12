@@ -33,7 +33,6 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="solidity" width="40" height="40"/>
   </a></p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dancan254&show_icons=true&locale=en&layout=compact" alt="dancan254" /></p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dancan254&show_icons=true&locale=en" alt="dancan254" /></p>
 <div style="display: flex; justify-content: left; align-items: left; gap: 100px;">
    <img src="https://api.githubtrends.io/user/svg/Dancan254/langs?time_range=one_year&theme=dark" alt="Gift's LangStat"/>
