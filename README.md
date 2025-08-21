@@ -118,9 +118,6 @@ public class Ian implements JavaDeveloper, AIEnthusiast {
 <td width="50%">
 <img src="https://github-readme-stats.vercel.app/api?username=dancan254&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&custom_title=Ian's%20GitHub%20Stats&icon_color=00d9ff&title_color=00d9ff" width="100%"/>
 </td>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancan254&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Language%20Distribution&title_color=00d9ff" width="100%"/>
-</td>
 </tr>
 </table>
 </div>
