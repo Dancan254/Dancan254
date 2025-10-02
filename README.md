@@ -27,7 +27,7 @@
 <div align="center">
 
 ### 💻 Core Stack
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1a1a1a)
+![Java](https://img.shields.io/badge/Java_-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1a1a1a)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white&labelColor=1a1a1a)
 ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white&labelColor=1a1a1a)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=1a1a1a)
@@ -45,15 +45,9 @@
 </div>
 
 ## 📊 GitHub Activity
-
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dancan254&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=00d9ff&title_color=00d9ff" width="70%"/>
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dancan254&theme=tokyonight&hide_border=true&stroke=00d9ff&ring=00d9ff&fire=00d9ff" width="70%"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=dancan254&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=00d9ff&title_color=00d9ff" width="45%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dancan254&theme=tokyonight&hide_border=true&stroke=00d9ff&ring=00d9ff&fire=00d9ff" width="45%"/>
 </div>
 
 ## 📫 Let's Connect
