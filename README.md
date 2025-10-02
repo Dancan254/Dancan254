@@ -1,8 +1,8 @@
-# <div align="center">[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=32&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&height=50&lines=%F0%9F%91%8B+Hey%2C+I'm+Ian+-+Your+Java+Guy)](https://git.io/typing-svg)</div>
+# <div align="center">[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&height=50&lines=%F0%9F%91%8B+Hey%2C+I'm+Ian+-+Your+Java+Guy)](https://git.io/typing-svg)</div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Java+Developer+%7C+Backend+Engineer;Blockchain+Explorer+%7C+Security+Enthusiast;Building+the+Future%2C+One+Line+at+a+Time+⚡)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=120&lines=Java+Developer+%7C+Backend+Engineer;Blockchain+Explorer+%7C+Security+Enthusiast;Building+the+Future%2C+One+Line+at+a+Time+⚡)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=dancan254&label=Profile%20Views&color=00d9ff&style=for-the-badge&labelColor=282828)
 [![GitHub followers](https://img.shields.io/github/followers/dancan254?label=Follow&style=for-the-badge&color=00d9ff&labelColor=282828)](https://github.com/dancan254)
