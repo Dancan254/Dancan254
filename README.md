@@ -39,7 +39,7 @@
 name       : Ian Dancan
 role       : Backend Engineer · Java Instructor @ Amigoscode
 location   : Nairobi, Kenya
-community  : Co-organizer · Java Connect KE · Nairobi Java Community
+community  : Co-organizer · Java Connect KE ·  Kenya Java User Group
 open-source: Building free learning resources for Java developers
 philosophy : Understand the WHY · Pattern recognition over memorization
 focus      : Spring Boot · Spring AI · DevOps Engineering · AI-powered tooling
