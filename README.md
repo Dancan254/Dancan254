@@ -146,10 +146,7 @@ A comprehensive DSA reference in Java — built around pattern recognition, not 
 
 ## Content & Writing
 
-I create technical content for Java developers — system design diagrams, Spring Boot deep-dives, DSA breakdowns, and architecture patterns. Find me on **LinkedIn** and **Medium**.
-
-Topics I cover regularly:
-`@Transactional pitfalls` · `N+1 query problem` · `Spring Bean Scopes` · `HTTP Interfaces` · `Java Streams` · `Constructor vs Field Injection` · `Resilience4j` · `System Design`
+I create technical content for Java developers — system design diagrams, Spring Boot deep-dives, DSA breakdowns, and architecture patterns. Find me on **LinkedIn**, **Substack**, and **Medium**.
 
 ---
 
@@ -159,6 +156,7 @@ Topics I cover regularly:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ian_Dancan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251/)
 [![Medium](https://img.shields.io/badge/Medium-@dancanian25-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=0d1117)](https://medium.com/@dancanian25)
+[![Substack](https://img.shields.io/badge/Substack-yourjavaguy-FF6719?style=for-the-badge&logo=substack&logoColor=white&labelColor=0d1117)](https://substack.com/@yourjavaguy)
 [![Twitter](https://img.shields.io/badge/Twitter-@your__javaguy-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0d1117)](https://twitter.com/your_javaguy)
 [![Gmail](https://img.shields.io/badge/Gmail-dancanian25-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:dancanian25@gmail.com)
 
