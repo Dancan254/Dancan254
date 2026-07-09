@@ -87,7 +87,7 @@ focus      : Spring Boot · Spring AI · DevOps Engineering · AI-powered toolin
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 **Java for Everyone**
 
@@ -96,13 +96,22 @@ A free, open-source reference for developers learning Java and Spring Boot from 
 [![Java for Everyone](https://img.shields.io/badge/Java_for_Everyone-Explore_Repo-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/java-for-everyone)
 
 </td>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 **Data Structures & Algorithms**
 
 A comprehensive DSA reference in Java — built around pattern recognition, not memorization. Covers all major patterns with clean, well-commented implementations.
 
 [![DSA Repo](https://img.shields.io/badge/DSA_in_Java-Explore_Repo-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/DataStructuresAndAlgorithms)
+
+</td>
+<td align="center" width="33%">
+
+**Spring RabbitMQ**
+
+A production-focused guide to RabbitMQ with Spring Boot. Covers exchanges, queues, routing, publisher confirms, dead-letter queues, retries, worker queues, and real-world messaging patterns.
+
+[![Spring RabbitMQ](https://img.shields.io/badge/Spring_RabbitMQ-Explore_Repo-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq)
 
 </td>
 </tr>
