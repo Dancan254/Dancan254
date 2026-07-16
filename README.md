@@ -35,7 +35,7 @@ $ whoami
         (   (               ---------------
          )   )              Role: Backend Engineer / Java Instructor
         (   (               Community: Kenya JUG (Java Connect KE)
-      .___________.         Teaching: Java, Spring Boot, DSA, System Design
+      .___________.         Teaching: Java, Spring Boot, RabbitMQ, DSA
       |           |]        Frameworks: Spring Boot, Spring AI, Spring Security
       |  J A V A  |]        Languages: Java, Kotlin, SQL
       |___________|]        Messaging: RabbitMQ, Apache Kafka
@@ -57,8 +57,8 @@ $ cat ~/stack.md
 
 Teaching          Java · Spring Boot · RabbitMQ · DSA · System Design
 Building with     Spring Security · Docker · Kubernetes · Jenkins
-                  Apache Kafka · PostgreSQL · Redis · Azure · AWS
-Learning loudly   Spring AI
+                  Apache Kafka · PostgreSQL · Redis · Azure
+Learning loudly   Spring AI · AWS
 Next up           Kotlin
 
 # "Learning loudly" means I teach it while I learn it — the notes become
@@ -79,9 +79,9 @@ tripsaga/             # know Spring, want distributed systems?
 
 | Path | What you get | |
 |------|--------------|---|
-| **Java for Everyone** | The full Java roadmap — basics, OOP, Collections, File & Exception Handling, Streams, Lambdas. Start at the top, work down. | [![Repo](https://img.shields.io/badge/55★_Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/java-for-everyone) |
+| **Java for Everyone** | The full Java roadmap — basics, OOP, Collections, File & Exception Handling, Streams, Lambdas. Start at the top, work down. | [![Stars](https://img.shields.io/github/stars/Dancan254/java-for-everyone?style=flat-square&color=f0196a&labelColor=0d1117&logo=github&logoColor=white)](https://github.com/Dancan254/java-for-everyone) |
 | **Spring RabbitMQ** | Production messaging with Spring Boot: exchanges, queues, retries, dead-letter queues, publisher confirms. Pairs with the video series running now. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq) |
-| **TripSaga** | Cloud-native travel platform. Spring Boot microservices, RabbitMQ, PostgreSQL — read the **Saga** and **Outbox** implementations for reliable distributed transactions. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/tripsaga) |
+| **TripSaga** | A distributed booking saga over RabbitMQ in Java 25 / Spring Boot 4 — flight, hotel and payment services that settle all-or-nothing, or compensate. Start with [DESIGN.md](https://github.com/Dancan254/tripsaga/blob/main/DESIGN.md). | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/tripsaga) |
 
 ---
 
@@ -139,7 +139,11 @@ $ journalctl -u your_javaguy --since 2026 --grep=talk
 
 <div align="center">
 
-<img width="100%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=ffffff&color=24292f&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=24292f&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+  <img width="100%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+</picture>
 
 </div>
 
