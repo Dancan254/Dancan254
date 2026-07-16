@@ -149,7 +149,11 @@ $ journalctl -u your_javaguy --since 2026 --grep=talk
 ## Connect
 
 ```console
-$ curl -s https://github.com/Dancan254 | jq '.connect'
+$ curl -s https://api.github.com/users/Dancan254 | jq '{bio, twitter_username}'
+{
+  "bio": "Java Developer || Learn Today, Teach Tomorrow🇰🇪",
+  "twitter_username": "your_javaguy"
+}
 ```
 
 <div align="center">
