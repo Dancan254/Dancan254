@@ -1,14 +1,12 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1200&color=00D9FF&center=true&vCenter=true&width=750&lines=Hey%2C+I'm+Ian+Dancan;Backend+Engineer+%7C+Java+Educator;Learn+Today.+Teach+Tomorrow.)](https://git.io/typing-svg)
-
-Building production-ready backend systems with Java, while helping developers grow through teaching, open source, and community.
+<img src="./assets/banner.svg" width="840" alt="Ian Dancan — Backend Engineer, Java Instructor. Learn Today. Teach Tomorrow."/>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Dancan254&label=Profile+Views&style=for-the-badge&color=00D9FF&labelColor=0d1117)
-[![GitHub followers](https://img.shields.io/github/followers/Dancan254?style=for-the-badge&color=00D9FF&labelColor=0d1117)](https://github.com/Dancan254)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251)
+[![GitHub followers](https://img.shields.io/github/followers/Dancan254?style=for-the-badge&color=f0196a&labelColor=0d1117)](https://github.com/Dancan254?tab=followers)
+[![YouTube](https://img.shields.io/badge/YouTube-@your__javaguy-f0196a?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117)](https://www.youtube.com/@your_javaguy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-f0196a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251)
 
 </div>
 
@@ -16,9 +14,9 @@ Building production-ready backend systems with Java, while helping developers gr
 
 <table>
 <tr>
-<td width="240" valign="top" align="center">
+<td width="230" valign="top" align="center">
 
-<img src="https://avatars.githubusercontent.com/dancan254" width="200" style="border-radius:50%" alt="Ian Dancan"/>
+<img src="https://avatars.githubusercontent.com/dancan254" width="190" style="border-radius:50%" alt="Ian Dancan"/>
 
 <br/><br/>
 
@@ -31,19 +29,19 @@ Building production-ready backend systems with Java, while helping developers gr
 </td>
 <td valign="top">
 
-```
+```console
+$ whoami
                             javaguy@nairobi
         (   (               ---------------
          )   )              Role: Backend Engineer / Java Instructor
-        (   (               Community: Kenya Java User Group, Java Connect KE
-      .___________.         IDE: IntelliJ IDEA
-      |           |]        Languages: Java, Kotlin, SQL
-      |  J A V A  |]        Frameworks: Spring Boot, Spring AI, Spring Security
-      |___________|]        CI/CD: Jenkins, GitHub Actions
-       \_________/          Infra: Docker, Kubernetes
-                            Cloud: Azure, AWS
-                            Messaging: RabbitMQ, Apache Kafka
+        (   (               Community: Kenya JUG, Java Connect KE
+      .___________.         Teaching: Java, Spring Boot, DSA, System Design
+      |           |]        Frameworks: Spring Boot, Spring AI, Spring Security
+      |  J A V A  |]        Messaging: RabbitMQ, Apache Kafka
+      |___________|]        Infra: Docker, Kubernetes, Jenkins
+       \_________/          Cloud: Azure, AWS
                             Data: PostgreSQL, Redis
+                            Uptime: teaching since 2021
                             Motto: Learn Today. Teach Tomorrow.
 ```
 
@@ -53,100 +51,96 @@ Building production-ready backend systems with Java, while helping developers gr
 
 ---
 
-## Tech Stack
+```console
+$ cat ~/stack.md
+Java             ████████████████████  teaching it
+Spring Boot      ████████████████████  teaching it
+RabbitMQ         ████████████████░░░░  teaching it right now
+Spring Security  ███████████████░░░░░  shipped it
+Docker           ███████████████░░░░░  shipped it
+Apache Kafka     █████████████░░░░░░░  shipped it
+Kubernetes       ████████████░░░░░░░░  shipped it
+Spring AI        ███████████░░░░░░░░░  learning loudly
+Go               ████░░░░░░░░░░░░░░░░  next up
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,kotlin,spring,hibernate,maven,gradle,docker,kubernetes,postgres,redis,rabbitmq,kafka,jenkins,githubactions,git,azure,aws,linux,idea&theme=dark"/>
-
-</div>
-
----
-
-## What I Do
-
-| Area | Focus |
-|------|-------|
-| Backend Engineering | Java · Kotlin · Spring Boot · Spring Security · REST APIs |
-| AI Engineering | Spring AI · RAG · MCP · AI-powered Applications |
-| Distributed Systems | RabbitMQ · Apache Kafka · Saga · CQRS · Outbox Pattern |
-| DevOps | Docker · Kubernetes · Jenkins · GitHub Actions · CI/CD |
-| Cloud | Microsoft Azure · AWS (EC2, S3, IAM, Lambda) |
-| Teaching | Java · Spring Boot · Data Structures & Algorithms · System Design |
+# No bar here is a lie. "Learning loudly" means I teach it while I learn it —
+# the notes become the video, the video becomes the repo.
+```
 
 ---
 
-## Featured Projects
+## Start Here
 
-<table>
-<tr>
-<td width="33%" valign="top">
+```console
+$ ls -1 ~/teaching
+java-for-everyone/    # new to Java? start here
+spring-rabbitmq/      # know Java, want messaging?
+tripsaga/             # know Spring, want distributed systems?
+```
 
-### 🗺️ TripSaga
+| Path | What you get | |
+|------|--------------|---|
+| **📘 Java for Everyone** | The full Java roadmap — basics, OOP, Collections, File & Exception Handling, Streams, Lambdas. Start at the top, work down. | [![Repo](https://img.shields.io/badge/55★_Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/java-for-everyone) |
+| **🐰 Spring RabbitMQ** | Production messaging with Spring Boot: exchanges, queues, retries, dead-letter queues, publisher confirms. Pairs with the video series running now. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq) |
+| **🗺️ TripSaga** | Cloud-native travel platform. Spring Boot microservices, RabbitMQ, PostgreSQL — read the **Saga** and **Outbox** implementations for reliable distributed transactions. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/tripsaga) |
 
-A cloud-native travel platform built with Spring Boot microservices, Docker, RabbitMQ, and PostgreSQL, using the Saga and Outbox patterns for reliable distributed transactions.
+---
 
-[![View Repository](https://img.shields.io/badge/View_Repository-00D9FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/TripSaga)
+## Latest
 
-</td>
-<td width="33%" valign="top">
+```console
+$ tail -f ~/feed
+```
 
-### 📘 Java for Everyone
+<!-- FEED:START -->
+<!-- Generated by scripts/update_feed.py — edits here are overwritten daily. -->
 
-A pure Java roadmap covering the basics, OOP, the Collections Framework, File Handling, Exception Handling, Streams and Lambdas.
+**▸ Latest from the channel**
 
-[![View Repository](https://img.shields.io/badge/View_Repository-00D9FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/java-for-everyone)
+- [RabbitMQ with Spring Boot: 9 Lessons in One Video](https://www.youtube.com/watch?v=FaLVkRKiD0I) · `2026-07-14`
+- [Your First RabbitMQ Message](https://www.youtube.com/watch?v=Q_YNUBjc_cM) · `2026-07-09`
+- [RabbitMQ Explained — Before You Write Any Java](https://www.youtube.com/watch?v=M4xTIZRJM8s) · `2026-07-02`
 
-</td>
-<td width="33%" valign="top">
+**▸ Latest writing**
 
-### 🐰 Spring RabbitMQ
+- [“It Works” Is Where the Real Work Begins](https://yourjavaguy.substack.com/p/it-works-is-where-the-real-work-begins) · `Substack` · `2026-07-10`
+- [Slow Down to Speed Up: A Calmer Way to Crack Technical Interviews](https://yourjavaguy.substack.com/p/slow-down-to-speed-up-a-calmer-way) · `Substack` · `2026-06-23`
+- [I Finally Started Learning AWS. Here's What I've Learned So Far.](https://yourjavaguy.substack.com/p/i-finally-started-learning-aws-heres) · `Substack` · `2026-06-20`
 
-Production-ready messaging with Spring Boot: exchanges, queues, retries, dead-letter queues, publisher confirms, and event-driven patterns.
-
-[![View Repository](https://img.shields.io/badge/View_Repository-00D9FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq)
-
-</td>
-</tr>
-</table>
+<!-- FEED:END -->
 
 ---
 
 ## Community & Speaking
 
-<table>
-<tr>
-<td valign="top" width="50%">
+```console
+$ systemctl status your_javaguy
+● your_javaguy.service — Learn Today. Teach Tomorrow.
+     Loaded: loaded (/etc/systemd/system/your_javaguy.service; enabled)
+     Active: active (running) since 2021
+   Main PID: 254 (teaching)
+     Status: "Shipping backend systems. Teaching what I learn."
+     Memory: unbounded (mostly Java)
 
-**Community**
+     ├─ amigoscode.service              Java · Spring Boot · DSA · System Design
+     ├─ kenya-java-user-group.service   co-organizer, one of Kenya's fastest-growing
+     │                                  Java communities
+     └─ java-connect-ke.service         organizer & speaker, East Africa's Java meetups
 
-- Amigoscode: teaching Java, Spring Boot, DSA, System Design & Backend Engineering
-- Kenya Java User Group: co-organizer of one of Kenya's fastest-growing Java communities
-- Java Connect KE: organizer and speaker for East Africa's Java developer meetups
-
-</td>
-<td valign="top" width="50%">
-
-**Speaking**
-
-- **JavaConnectKE 2026**: Building AI Applications with Spring AI & Retrieval-Augmented Generation (RAG)
-- **Strathmore University**: Jenkins Unchained: Multibranch Pipelines, Parallel Stages & Notifications
-
-</td>
-</tr>
-</table>
+$ journalctl -u your_javaguy --since 2026 --grep=talk
+2026  JavaConnectKE      Building AI Applications with Spring AI &
+                         Retrieval-Augmented Generation (RAG)
+2026  Strathmore Univ.   Jenkins Unchained: Multibranch Pipelines,
+                         Parallel Stages & Notifications
+```
 
 ---
 
-## GitHub Activity
+## Activity
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&theme=tokyo-night&hide_border=true&radius=16&area=true"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=Dancan254&theme=tokyonight&hide_border=true&border_radius=12" width="48%"/>
+<img width="100%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
 
 </div>
 
@@ -154,19 +148,23 @@ Production-ready messaging with Spring Boot: exchanges, queues, retries, dead-le
 
 ## Connect
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=0d1117)](https://medium.com/@dancanian25)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white&labelColor=0d1117)](https://substack.com/@yourjavaguy)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117)](https://twitter.com/your_javaguy)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:dancanian25@gmail.com)
-
-</div>
+```console
+$ curl -s https://github.com/Dancan254 | jq '.connect'
+```
 
 <div align="center">
+
+[![YouTube](https://img.shields.io/badge/YouTube-f0196a?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117)](https://www.youtube.com/@your_javaguy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-f0196a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251)
+[![Substack](https://img.shields.io/badge/Substack-f0196a?style=for-the-badge&logo=substack&logoColor=white&labelColor=0d1117)](https://yourjavaguy.substack.com)
+[![Medium](https://img.shields.io/badge/Medium-f0196a?style=for-the-badge&logo=medium&logoColor=white&labelColor=0d1117)](https://medium.com/@dancanian25)
+[![X](https://img.shields.io/badge/X-f0196a?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117)](https://twitter.com/your_javaguy)
+[![Email](https://img.shields.io/badge/Email-f0196a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:dancanian25@gmail.com)
+
+<br/>
 
 ### Learn Today. Teach Tomorrow.
+
 *Building software that scales. Sharing knowledge that lasts.*
 
 </div>
