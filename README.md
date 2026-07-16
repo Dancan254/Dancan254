@@ -23,8 +23,8 @@
 **Ian Dancan**
 `@dancan254`
 
-📍 Nairobi, Kenya
-📧 dancanian25@gmail.com
+Nairobi, Kenya
+dancanian25@gmail.com
 
 </td>
 <td valign="top">
@@ -34,14 +34,15 @@ $ whoami
                             javaguy@nairobi
         (   (               ---------------
          )   )              Role: Backend Engineer / Java Instructor
-        (   (               Community: Kenya JUG, Java Connect KE
-      .___________.         Teaching: Java, Spring Boot, DSA, System Design
+        (   (               Community: Kenya JUG (Java Connect KE)
+      .___________.         Teaching: Java, Spring Boot, RabbitMQ, DSA
       |           |]        Frameworks: Spring Boot, Spring AI, Spring Security
-      |  J A V A  |]        Messaging: RabbitMQ, Apache Kafka
-      |___________|]        Infra: Docker, Kubernetes, Jenkins
-       \_________/          Cloud: Azure, AWS
+      |  J A V A  |]        Languages: Java, Kotlin, SQL
+      |___________|]        Messaging: RabbitMQ, Apache Kafka
+       \_________/          Infra: Docker, Kubernetes, Jenkins
+                            Cloud: Azure, AWS
                             Data: PostgreSQL, Redis
-                            Uptime: teaching since 2021
+                            Uptime: teaching since 2023
                             Motto: Learn Today. Teach Tomorrow.
 ```
 
@@ -53,18 +54,16 @@ $ whoami
 
 ```console
 $ cat ~/stack.md
-Java             ████████████████████  teaching it
-Spring Boot      ████████████████████  teaching it
-RabbitMQ         ████████████████░░░░  teaching it right now
-Spring Security  ███████████████░░░░░  shipped it
-Docker           ███████████████░░░░░  shipped it
-Apache Kafka     █████████████░░░░░░░  shipped it
-Kubernetes       ████████████░░░░░░░░  shipped it
-Spring AI        ███████████░░░░░░░░░  learning loudly
-Go               ████░░░░░░░░░░░░░░░░  next up
 
-# No bar here is a lie. "Learning loudly" means I teach it while I learn it —
-# the notes become the video, the video becomes the repo.
+Teaching          Java · Spring Boot · RabbitMQ · DSA · System Design
+Building with     Spring Security · Docker · Kubernetes · Jenkins
+                  Apache Kafka · PostgreSQL · Redis · Azure
+Learning loudly   Spring AI · AWS
+Next up           Kotlin
+
+# "Learning loudly" means I teach it while I learn it — the notes become
+# the video, the video becomes the repo. Every line above is a repo or a
+# talk, not a rating out of ten.
 ```
 
 ---
@@ -80,9 +79,9 @@ tripsaga/             # know Spring, want distributed systems?
 
 | Path | What you get | |
 |------|--------------|---|
-| **📘 Java for Everyone** | The full Java roadmap — basics, OOP, Collections, File & Exception Handling, Streams, Lambdas. Start at the top, work down. | [![Repo](https://img.shields.io/badge/55★_Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/java-for-everyone) |
-| **🐰 Spring RabbitMQ** | Production messaging with Spring Boot: exchanges, queues, retries, dead-letter queues, publisher confirms. Pairs with the video series running now. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq) |
-| **🗺️ TripSaga** | Cloud-native travel platform. Spring Boot microservices, RabbitMQ, PostgreSQL — read the **Saga** and **Outbox** implementations for reliable distributed transactions. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/tripsaga) |
+| **Java for Everyone** | The full Java roadmap — basics, OOP, Collections, File & Exception Handling, Streams, Lambdas. Start at the top, work down. | [![Stars](https://img.shields.io/github/stars/Dancan254/java-for-everyone?style=flat-square&color=f0196a&labelColor=0d1117&logo=github&logoColor=white)](https://github.com/Dancan254/java-for-everyone) |
+| **Spring RabbitMQ** | Production messaging with Spring Boot: exchanges, queues, retries, dead-letter queues, publisher confirms. Pairs with the video series running now. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq) |
+| **TripSaga** | A distributed booking saga over RabbitMQ in Java 25 / Spring Boot 4 — flight, hotel and payment services that settle all-or-nothing, or compensate. Start with [DESIGN.md](https://github.com/Dancan254/tripsaga/blob/main/DESIGN.md). | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/tripsaga) |
 
 ---
 
@@ -117,15 +116,15 @@ $ tail -f ~/feed
 $ systemctl status your_javaguy
 ● your_javaguy.service — Learn Today. Teach Tomorrow.
      Loaded: loaded (/etc/systemd/system/your_javaguy.service; enabled)
-     Active: active (running) since 2021
+     Active: active (running) since 2023
    Main PID: 254 (teaching)
-     Status: "Shipping backend systems. Teaching what I learn."
+     Status: "Building backend systems. Teaching what I learn."
      Memory: unbounded (mostly Java)
 
      ├─ amigoscode.service              Java · Spring Boot · DSA · System Design
-     ├─ kenya-java-user-group.service   co-organizer, one of Kenya's fastest-growing
-     │                                  Java communities
-     └─ java-connect-ke.service         organizer & speaker, East Africa's Java meetups
+     └─ kenya-java-user-group.service   co-organizer, one of Kenya's fastest-growing
+        │                               Java communities
+        └─ java-connect-ke              organizer & speaker, East Africa's Java meetups
 
 $ journalctl -u your_javaguy --since 2026 --grep=talk
 2026  JavaConnectKE      Building AI Applications with Spring AI &
@@ -140,7 +139,11 @@ $ journalctl -u your_javaguy --since 2026 --grep=talk
 
 <div align="center">
 
-<img width="100%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=ffffff&color=24292f&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=24292f&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+  <img width="100%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
+</picture>
 
 </div>
 
@@ -149,7 +152,11 @@ $ journalctl -u your_javaguy --since 2026 --grep=talk
 ## Connect
 
 ```console
-$ curl -s https://github.com/Dancan254 | jq '.connect'
+$ curl -s https://api.github.com/users/Dancan254 | jq '{bio, twitter_username}'
+{
+  "bio": "Java Developer || Learn Today, Teach Tomorrow🇰🇪",
+  "twitter_username": "your_javaguy"
+}
 ```
 
 <div align="center">
