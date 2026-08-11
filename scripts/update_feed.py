@@ -7,6 +7,7 @@ to the profile README.
 
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ElementTree
@@ -18,7 +19,6 @@ README = Path(__file__).resolve().parent.parent / "README.md"
 
 YOUTUBE_FEED = "https://www.youtube.com/feeds/videos.xml?channel_id=UCOjAXiOifsFuMYZimCgrsnQ"
 BLOG_FEEDS = [
-    ("Medium", "https://medium.com/feed/@dancanian25"),
     ("Substack", "https://yourjavaguy.substack.com/feed"),
 ]
 
@@ -28,14 +28,41 @@ END = "<!-- FEED:END -->"
 MAX_VIDEOS = 3
 MAX_POSTS = 3
 
-# Medium and Substack reject urllib's default User-Agent.
-USER_AGENT = "Mozilla/5.0 (compatible; your-javaguy-profile-bot/1.0; +https://github.com/Dancan254)"
+RETRIES = 3
+# Cloudflare (Substack) 403s datacenter IPs and non-browser clients; a real
+# browser User-Agent plus Accept headers is our best stdlib-only shot at getting through.
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+FEED_ERRORS = (urllib.error.URLError, ElementTree.ParseError, ValueError, OSError)
+
+VIDEO_LINE = re.compile(r"^- \[(?P<title>.+)\]\((?P<url>[^)]+)\) · `(?P<date>\d{4}-\d{2}-\d{2})`$")
+POST_LINE = re.compile(
+    r"^- \[(?P<title>.+)\]\((?P<url>[^)]+)\) · `(?P<source>[^`]+)` · `(?P<date>\d{4}-\d{2}-\d{2})`$"
+)
 
 
 def fetch(url):
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read()
+    last_error = None
+    for attempt in range(RETRIES):
+        try:
+            request = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return response.read()
+        except (urllib.error.URLError, OSError) as error:
+            # An IP-reputation block never clears within a run; only back off for
+            # rate limits and server-side faults.
+            if isinstance(error, urllib.error.HTTPError) and 400 <= error.code < 500:
+                if error.code != 429:
+                    raise
+            last_error = error
+            if attempt < RETRIES - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_error
 
 
 def parse_youtube(raw):
@@ -77,6 +104,47 @@ def parse_rss(raw, source):
     return entries
 
 
+def parse_date(value):
+    return datetime.strptime(value, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+
+
+def parse_existing_block(readme):
+    match = re.search(re.escape(START) + r"(.*?)" + re.escape(END), readme, flags=re.DOTALL)
+    videos = []
+    posts = []
+    if not match:
+        return videos, posts
+    for line in match.group(1).splitlines():
+        post = POST_LINE.match(line)
+        if post:
+            posts.append(
+                {
+                    "title": post["title"],
+                    "url": post["url"],
+                    "source": post["source"],
+                    "date": parse_date(post["date"]),
+                }
+            )
+            continue
+        video = VIDEO_LINE.match(line)
+        if video:
+            videos.append(
+                {"title": video["title"], "url": video["url"], "date": parse_date(video["date"])}
+            )
+    return videos, posts
+
+
+def dedupe(entries):
+    seen = set()
+    result = []
+    for entry in entries:
+        if entry["url"] in seen:
+            continue
+        seen.add(entry["url"])
+        result.append(entry)
+    return result
+
+
 def newest(entries, limit):
     return sorted(entries, key=lambda entry: entry["date"], reverse=True)[:limit]
 
@@ -101,25 +169,32 @@ def render(videos, posts):
 
 
 def main():
-    try:
-        videos = newest(parse_youtube(fetch(YOUTUBE_FEED)), MAX_VIDEOS)
-        posts = []
-        for source, url in BLOG_FEEDS:
-            posts += parse_rss(fetch(url), source)
-        posts = newest(posts, MAX_POSTS)
-    except (urllib.error.URLError, ElementTree.ParseError, ValueError, OSError) as error:
-        # Never half-write the block — a transient feed outage leaves the last good content.
-        print(f"feed fetch failed, README untouched: {error}", file=sys.stderr)
-        return 1
-
-    if not videos or not posts:
-        print("a feed returned no usable entries, README untouched", file=sys.stderr)
-        return 1
-
     readme = README.read_text(encoding="utf-8")
     if START not in readme or END not in readme:
         print(f"markers {START} / {END} not found in README", file=sys.stderr)
         return 1
+
+    # A blocked feed keeps its last-known entries instead of blanking the section.
+    existing_videos, existing_posts = parse_existing_block(readme)
+
+    try:
+        videos = newest(parse_youtube(fetch(YOUTUBE_FEED)), MAX_VIDEOS)
+    except FEED_ERRORS as error:
+        print(f"youtube feed failed, keeping last-known videos: {error}", file=sys.stderr)
+        videos = existing_videos
+
+    posts = []
+    for source, url in BLOG_FEEDS:
+        try:
+            posts += parse_rss(fetch(url), source)
+        except FEED_ERRORS as error:
+            print(f"{source} feed failed, keeping last-known posts: {error}", file=sys.stderr)
+            posts += [post for post in existing_posts if post["source"] == source]
+    posts = newest(dedupe(posts), MAX_POSTS)
+
+    if not videos and not posts:
+        print("no feed data available, README untouched", file=sys.stderr)
+        return 0
 
     updated = re.sub(
         re.escape(START) + r".*?" + re.escape(END),
