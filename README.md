@@ -96,9 +96,9 @@ $ tail -f ~/feed
 
 **▸ Latest from the channel**
 
+- [A day in the Life as a Software Engineering Instructor](https://www.youtube.com/watch?v=lM2P8NCgYPk) · `2026-09-09`
 - [Spring Boot Exception Handling: Stop Returning 500s](https://www.youtube.com/watch?v=Nhd9kw_FbkY) · `2026-07-21`
 - [RabbitMQ with Spring Boot: 9 Lessons in One Video](https://www.youtube.com/watch?v=FaLVkRKiD0I) · `2026-07-14`
-- [Your First RabbitMQ Message](https://www.youtube.com/watch?v=Q_YNUBjc_cM) · `2026-07-09`
 
 **▸ Latest writing**
 
