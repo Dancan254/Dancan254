@@ -85,6 +85,21 @@ tripsaga/             # know Spring, want distributed systems?
 
 ---
 
+## Shipped
+
+```console
+$ ls -1 ~/build
+log-guard/    # on Maven Central — PII never reaches the appender
+pitwall/      # 211k events/sec, and every number measured
+```
+
+| Project | What it does | |
+|---------|--------------|---|
+| **log-guard** | A Spring Boot starter that masks personal data at the Logback event level, so console, file and OTLP exports all see the same redacted output. Most redaction libraries rewrite the pattern layout — that protects the console and nothing else. | [![Maven Central](https://img.shields.io/maven-central/v/io.github.dancan254/log-guard-spring-boot-starter?style=flat-square&color=f0196a&labelColor=0d1117&logo=apachemaven&logoColor=white&label=maven%20central)](https://central.sonatype.com/artifact/io.github.dancan254/log-guard-spring-boot-starter) |
+| **Pitwall** | F1 telemetry end to end: off the car, through Kafka, into TimescaleDB, onto the engineers' screens. 211,000 events/sec where the naive path collapses to 1,441; a 12M-row history query drops from 2,544 ms to 21 ms on a continuous aggregate. Every figure measured, not estimated. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/pitwall) |
+
+---
+
 ## Latest
 
 ```console
