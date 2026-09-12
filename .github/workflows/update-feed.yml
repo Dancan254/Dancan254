@@ -19,14 +19,20 @@ jobs:
       - name: Rewrite feed block
         run: python3 scripts/update_feed.py
 
-      - name: Commit if the feed moved
+      - name: Redraw contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python3 scripts/update_graph.py
+
+      - name: Commit if anything moved
         run: |
-          if git diff --quiet -- README.md; then
-            echo "No feed changes to commit."
+          if git diff --quiet -- README.md assets/graph.svg; then
+            echo "No feed or graph changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore(readme): refresh content feed"
+          git add README.md assets/graph.svg
+          git commit -m "chore(readme): refresh content feed and contribution graph"
           git push

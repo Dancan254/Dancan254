@@ -139,11 +139,7 @@ $ journalctl -u your_javaguy --since 2026 --grep=talk
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=ffffff&color=24292f&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=24292f&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
-  <img width="100%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Dancan254&bg_color=12121f&color=E6E6E6&line=f0196a&point=ff6b9d&area=true&area_color=f0196a&title_color=ffffff&hide_border=true&radius=16&custom_title=Learn%20Today.%20Teach%20Tomorrow."/>
-</picture>
+<img src="./assets/graph.svg" width="100%" alt="Contribution graph"/>
 
 </div>
 
