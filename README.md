@@ -1,188 +1,114 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="840" alt="Ian Dancan — Backend Engineer, Java Instructor. Learn Today. Teach Tomorrow."/>
+<img src="./assets/hero.svg" width="100%" alt="Ian Dancan Mongare — Applied AI Engineer and Backend Engineer"/>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/Dancan254?style=for-the-badge&color=f0196a&labelColor=0d1117)](https://github.com/Dancan254?tab=followers)
-[![YouTube](https://img.shields.io/badge/YouTube-@your__javaguy-f0196a?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117)](https://www.youtube.com/@your_javaguy)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-f0196a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251)
-
-</div>
-
----
-
-<table>
-<tr>
-<td width="230" valign="top" align="center">
-
-<img src="https://avatars.githubusercontent.com/dancan254" width="190" style="border-radius:50%" alt="Ian Dancan"/>
-
-<br/><br/>
-
-**Ian Dancan**
-`@dancan254`
-
-Nairobi, Kenya
-dancanian25@gmail.com
-
-</td>
-<td valign="top">
-
-```console
-$ whoami
-                            javaguy@nairobi
-        (   (               ---------------
-         )   )              Role: Backend Engineer / Java Instructor
-        (   (               Community: Kenya JUG (Java Connect KE)
-      .___________.         Teaching: Java, Spring Boot, RabbitMQ, DSA
-      |           |]        Frameworks: Spring Boot, Spring AI, Spring Security
-      |  J A V A  |]        Languages: Java, Kotlin, SQL
-      |___________|]        Messaging: RabbitMQ, Apache Kafka
-       \_________/          Infra: Docker, Kubernetes, Jenkins
-                            Cloud: Azure, AWS
-                            Data: PostgreSQL, Redis
-                            Uptime: teaching since 2023
-                            Motto: Learn Today. Teach Tomorrow.
-```
-
-</td>
-</tr>
-</table>
-
----
-
-```console
-$ cat ~/stack.md
-
-Teaching          Java · Spring Boot · RabbitMQ · DSA · System Design
-Building with     Spring Security · Docker · Kubernetes · Jenkins
-                  Apache Kafka · PostgreSQL · Redis · Azure
-Learning loudly   Spring AI · AWS
-Next up           Kotlin
-
-# "Learning loudly" means I teach it while I learn it — the notes become
-# the video, the video becomes the repo. Every line above is a repo or a
-# talk, not a rating out of ten.
-```
-
----
-
-## Start Here
-
-```console
-$ ls -1 ~/teaching
-java-for-everyone/    # new to Java? start here
-spring-rabbitmq/      # know Java, want messaging?
-tripsaga/             # know Spring, want distributed systems?
-```
-
-| Path | What you get | |
-|------|--------------|---|
-| **Java for Everyone** | The full Java roadmap — basics, OOP, Collections, File & Exception Handling, Streams, Lambdas. Start at the top, work down. | [![Stars](https://img.shields.io/github/stars/Dancan254/java-for-everyone?style=flat-square&color=f0196a&labelColor=0d1117&logo=github&logoColor=white)](https://github.com/Dancan254/java-for-everyone) |
-| **Spring RabbitMQ** | Production messaging with Spring Boot: exchanges, queues, retries, dead-letter queues, publisher confirms. Pairs with the video series running now. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/spring-rabbitmq) |
-| **TripSaga** | A distributed booking saga over RabbitMQ in Java 25 / Spring Boot 4 — flight, hotel and payment services that settle all-or-nothing, or compensate. Start with [DESIGN.md](https://github.com/Dancan254/tripsaga/blob/main/DESIGN.md). | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/tripsaga) |
-
----
-
-## Shipped
-
-```console
-$ ls -1 ~/build
-log-guard/    # on Maven Central — PII never reaches the appender
-pitwall/      # 211k events/sec, and every number measured
-```
-
-| Project | What it does | |
-|---------|--------------|---|
-| **log-guard** | A Spring Boot starter that masks personal data at the Logback event level, so console, file and OTLP exports all see the same redacted output. Most redaction libraries rewrite the pattern layout — that protects the console and nothing else. | [![Maven Central](https://img.shields.io/maven-central/v/io.github.dancan254/log-guard-spring-boot-starter?style=flat-square&color=f0196a&labelColor=0d1117&logo=apachemaven&logoColor=white&label=maven%20central)](https://central.sonatype.com/artifact/io.github.dancan254/log-guard-spring-boot-starter) |
-| **Pitwall** | F1 telemetry end to end: off the car, through Kafka, into TimescaleDB, onto the engineers' screens. 211,000 events/sec where the naive path collapses to 1,441; a 12M-row history query drops from 2,544 ms to 21 ms on a continuous aggregate. Every figure measured, not estimated. | [![Repo](https://img.shields.io/badge/Open-f0196a?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Dancan254/pitwall) |
-
----
-
-## Latest
-
-```console
-$ tail -f ~/feed
-```
-
-<!-- FEED:START -->
-<!-- Generated by scripts/update_feed.py — edits here are overwritten daily. -->
-
-**▸ Latest from the channel**
-
-- [A day in the Life as a Software Engineering Instructor](https://www.youtube.com/watch?v=lM2P8NCgYPk) · `2026-09-09`
-- [Spring Boot Exception Handling: Stop Returning 500s](https://www.youtube.com/watch?v=Nhd9kw_FbkY) · `2026-07-21`
-- [RabbitMQ with Spring Boot: 9 Lessons in One Video](https://www.youtube.com/watch?v=FaLVkRKiD0I) · `2026-07-14`
-
-**▸ Latest writing**
-
-- [“It Works” Is Where the Real Work Begins](https://yourjavaguy.substack.com/p/it-works-is-where-the-real-work-begins) · `Substack` · `2026-07-10`
-- [Slow Down to Speed Up: A Calmer Way to Crack Technical Interviews](https://yourjavaguy.substack.com/p/slow-down-to-speed-up-a-calmer-way) · `Substack` · `2026-06-23`
-- [I Finally Started Learning AWS. Here's What I've Learned So Far.](https://yourjavaguy.substack.com/p/i-finally-started-learning-aws-heres) · `Substack` · `2026-06-20`
-
-<!-- FEED:END -->
-
----
-
-## Community & Speaking
-
-```console
-$ systemctl status your_javaguy
-● your_javaguy.service — Learn Today. Teach Tomorrow.
-     Loaded: loaded (/etc/systemd/system/your_javaguy.service; enabled)
-     Active: active (running) since 2023
-   Main PID: 254 (teaching)
-     Status: "Building backend systems. Teaching what I learn."
-     Memory: unbounded (mostly Java)
-
-     ├─ amigoscode.service              Java · Spring Boot · DSA · System Design
-     └─ kenya-java-user-group.service   co-organizer, one of Kenya's fastest-growing
-        │                               Java communities
-        └─ java-connect-ke              organizer & speaker, East Africa's Java meetups
-
-$ journalctl -u your_javaguy --since 2026 --grep=talk
-2026  JavaConnectKE      Building AI Applications with Spring AI &
-                         Retrieval-Augmented Generation (RAG)
-2026  Strathmore Univ.   Jenkins Unchained: Multibranch Pipelines,
-                         Parallel Stages & Notifications
-```
-
----
-
-## Activity
-
-<div align="center">
-
-<img src="./assets/graph.svg" width="100%" alt="Contribution graph"/>
-
-</div>
-
----
-
-## Connect
-
-```console
-$ curl -s https://api.github.com/users/Dancan254 | jq '{bio, twitter_username}'
-{
-  "bio": "Java Developer || Learn Today, Teach Tomorrow🇰🇪",
-  "twitter_username": "your_javaguy"
-}
-```
-
-<div align="center">
-
-[![YouTube](https://img.shields.io/badge/YouTube-f0196a?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117)](https://www.youtube.com/@your_javaguy)
+[![Portfolio](https://img.shields.io/badge/yourjavaguy.me-f0196a?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0d1117)](https://yourjavaguy.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-f0196a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/ian-dancan-8a3721251)
+[![YouTube](https://img.shields.io/badge/YouTube-f0196a?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117)](https://www.youtube.com/@your_javaguy)
 [![Substack](https://img.shields.io/badge/Substack-f0196a?style=for-the-badge&logo=substack&logoColor=white&labelColor=0d1117)](https://yourjavaguy.substack.com)
-[![Medium](https://img.shields.io/badge/Medium-f0196a?style=for-the-badge&logo=medium&logoColor=white&labelColor=0d1117)](https://medium.com/@dancanian25)
-[![X](https://img.shields.io/badge/X-f0196a?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117)](https://twitter.com/your_javaguy)
 [![Email](https://img.shields.io/badge/Email-f0196a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:dancanian25@gmail.com)
 
-<br/>
+</div>
 
-### Learn Today. Teach Tomorrow.
+---
 
-*Building software that scales. Sharing knowledge that lasts.*
+I build backend systems in Java and Spring, and AI features grounded in something checkable
+rather than guessed. I teach the same things on YouTube and at Kenya's Java meetups.
+
+Nairobi, Kenya. Currently at Amigoscode.
+
+---
+
+## Applied AI
+
+#### [DevLens](https://github.com/Dancan254/devlens) — pull request analysis you can trust
+
+Ask a language model to read a diff and it will confidently invent an endpoint that doesn't exist.
+DevLens parses the Java source at both commits with JavaParser, works out what actually changed,
+and hands the model those facts as ground truth it is told not to contradict. The prose can still
+be wrong. The endpoint and entity lists cannot.
+
+`Java 25` · `Spring Boot 4.1` · `Spring AI 2.0` · `pgvector` · `MCP`
+
+#### [Spring AI RAG](https://github.com/Dancan254/spring-ai-rag) — RAG, measured at every step
+
+Five stages, from naive retrieval to conversational RAG. Every stage runs against the same corpus
+and the same questions through one evaluation harness, so each produces a number you can watch
+move — rather than a tutorial that claims to be better than the last one.
+
+`Java 25` · `Spring Boot 4.1` · `Spring AI 2.0` · `pgvector` · `Azure OpenAI`
+
+---
+
+## Backend
+
+#### [log-guard](https://github.com/Dancan254/log-guard) — personal data never reaches the appender
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.dancan254/log-guard-spring-boot-starter?style=flat-square&color=f0196a&labelColor=0d1117&logo=apachemaven&logoColor=white&label=maven%20central)](https://central.sonatype.com/artifact/io.github.dancan254/log-guard-spring-boot-starter)
+
+A Spring Boot starter that masks personal data at the Logback event level, so console, file and
+OTLP exports all see the same redacted output. Most redaction libraries rewrite the pattern
+layout — that protects the console and nothing else.
+
+`Java 25` · `Spring Boot 4.1` · `Logback` · `Log4j2` · `OpenTelemetry`
+
+#### [Pitwall](https://github.com/Dancan254/pitwall) — high-throughput telemetry, measured
+
+F1 telemetry from the car to the engineers' screens. 211,000 events per second into Kafka, where
+the naive path manages 1,441. A twelve-million-row history query drops from 2,544 ms to 21 ms on a
+continuous aggregate. Every figure measured, not estimated.
+
+`Java 25` · `Spring Boot 4` · `Kafka` · `Protobuf` · `TimescaleDB` · `Grafana`
+
+#### [TripSaga](https://github.com/Dancan254/tripsaga) — distributed transactions
+
+A booking saga across flight, hotel and payment that settles `COMPLETED` or `COMPENSATED`, never
+half-booked. There is no distributed `@Transactional` — RabbitMQ *is* the transaction.
+
+`Java 25` · `Spring Boot 4` · `RabbitMQ` · `Outbox` · `PostgreSQL` · `Testcontainers`
+
+---
+
+## Teaching
+
+#### [Java for Everyone](https://github.com/Dancan254/java-for-everyone) — new to Java? start here
+
+[![Stars](https://img.shields.io/github/stars/Dancan254/java-for-everyone?style=flat-square&color=f0196a&labelColor=0d1117&logo=github&logoColor=white)](https://github.com/Dancan254/java-for-everyone)
+
+A sequential curriculum — syntax, OOP, collections, streams and lambdas — with guides, code samples
+and exercises. Start at the top and work down. The most-used thing I've written.
+
+#### [Spring RabbitMQ](https://github.com/Dancan254/spring-rabbitmq) — messaging with Spring Boot
+
+Nine lessons, from your first message to publisher confirms, manual acknowledgements and
+dead-letter exchanges.
+
+---
+
+## Writing and video
+
+I publish walkthroughs on YouTube and longer written pieces on Substack.
+
+[![YouTube](https://img.shields.io/badge/YouTube-@your__javaguy-f0196a?style=flat-square&logo=youtube&logoColor=white&labelColor=0d1117)](https://www.youtube.com/@your_javaguy)
+[![Substack](https://img.shields.io/badge/Substack-yourjavaguy-f0196a?style=flat-square&logo=substack&logoColor=white&labelColor=0d1117)](https://yourjavaguy.substack.com)
+
+---
+
+## Community and speaking
+
+- **Amigoscode** — Java, Spring Boot, DSA, System Design
+- **Kenya Java User Group** — co-organizer, teaching since 2023
+- **Java Connect KE** — organizer and speaker, East Africa's Java meetups
+
+Talks: *Building AI Applications with Spring AI and RAG* at JavaConnectKE, and *Jenkins Unchained*
+at Strathmore University.
+
+---
+
+<div align="center">
+
+**Learn Today. Teach Tomorrow.**
 
 </div>
